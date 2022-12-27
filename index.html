@@ -4,24 +4,39 @@
   <style>
     /* Add some style to the landing page */
     body {
-      background-color: lavender;
+      background-color: #F9F9FF;
       text-align: center;
       font-family: sans-serif;
     }
     .btn {
       border: none;
-      background-color: purple;
+      /* background-color: purple; */
       color: white;
       padding: 16px 32px;
+      margin-top:10px ;
+      margin-bottom:10px ;
+      border-radius: 20px;
       font-size: 16px;
+      width: 30%;
+      /* width: 70px; */
       cursor: pointer;
+    }
+    img{
+      width: 50%;
+      height: 60%;
+      
     }
   </style>
 </head>
 <body>
   <h1>Welcome to our site!</h1>
   <p>We're glad you're here. Please login or register to continue.</p>
-  <button class="btn" onclick="window.location.href='login.html'">Login</button>
-  <button class="btn" onclick="window.location.href='register.html'">Register</button>
+  <div><img src="./task.png"></div>
+  <div>
+    <button class="btn" style="background-color:blue" onclick="window.location.href='login1.php'">Login</button>
+  </div>
+  <div>
+  <button class="btn" style="background-color:red" onclick="window.location.href='register.php'">Register</button>
+</div>
 </body>
 </html>
