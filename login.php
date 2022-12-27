@@ -44,7 +44,10 @@
       // Reset error messages
       emailError.textContent = '';
       passwordError.textContent = '';
-
+// test pull
+// test pull
+// test pull
+// test pull
       // Validate email
       if (!emailInput.value) {
         emailError.textContent = 'Email is required';
